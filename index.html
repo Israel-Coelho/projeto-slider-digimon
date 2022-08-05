@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Digimon Slider</title>
+
+    <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="src/css/reset.css">
+
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/digivice.png" alt="digivice" class="digivice" />
+        <h1 class="titulo">Cards Digimon</h1>
+    </header>
+    
+    <main class="digimon-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar" />
+        </button>
+
+        <ul class="lista-digimons">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Greymon</h2>
+                    <p class="vida">HP 1500</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/Greymon.png" alt="Greymon" class="imagem-digimon" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Greymon é um Digimon Dinossauro. A pele craniana de Greymon endureceu de modo que está coberta por uma concha parecida com um besouro rinoceronte . É um Digimon extremamente agressivo, com um corpo como uma arma letal coberta de garras afiadas e chifres gigantescos. No entanto, é altamente inteligente e, se você conseguir domá-lo, provavelmente não há nenhum monstro tão forte.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Weregarurumon</h2>
+                    <p class="vida">HP 1000</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/Weregarurumon.png" alt="Weregarurumon" class="imagem-digimon" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Um Digimon Homem-Besta que evoluiu de Garurumon e tornou-se capaz de andar sobre duas patas. Ao tornar-se bípede, perdeu a velocidade, mas tornou-se num Digimon de estilo comando com maior poder ofensivo e defensivo, além de ter desenvolvido uma personalidade tática. As suas técnicas de pontapé, facultadas pela força de pernas que herdou de Garurumon, são bastante fortes, pelo que compete pelo primeiro ou segundo lugar em capacidades de salto, entre os outros Digimons. Para além disto, é rico em lealdade e tem e uma personalidade confiável, executando fielmente a missão que o seu mestre lhe der. O seu movimento especial é cortar o oponente em pedaços com as garras afiadas em ambas as mãos.</p>
+                </div>
+            </li>
+            
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Angemon</h2>
+                    <p class="vida">HP 1600</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/angemon.png" alt="Angemon" class="imagem-digimon"/>
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Um Digimon Anjo com seis asas brilhantes, cujo corpo é revestido com um tecido de tão puro branco que parece divino. É um ser de perfeita virtude e, apesar de o descreverem como um Digimon que traz felicidade, ao confrontar o mal tudo que faz é atacar, com extrema calma, até que o oponente seja completamente aniquilado. Nas várias vezes em que o Digital World é visitado por uma crise, é dito que ele desce para liderar Digimons da mesma espécie. Devimon, que foi conquistado pelo lado negro, era originalmente desta espécie. O seu movimento especial consiste em golpear o adversário com o seu punho a brilhar dourado.</p>
+                </div>
+            </li>
+
+           
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar" />
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
